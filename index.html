@@ -43,18 +43,16 @@
 			<li><a href="mailto:tmgregory2017@gmail.com"></a></li>
 			</ul>
 		</p>
-	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	<form action="/action_page.php">
-  <fieldset>
-    <legend>Personal information:</legend>
-    First name:<br>
-    <input type="text" name="firstname" ><br>
-    Last name: <br>
-    <input type="text" name="lastname" ><br><br>
-    Product and Price: <br>
-    <input type="text" name="Product and Price"> <br>
-    <input type="submit" value="SubmitEMAIL TO: tmgregory2017@gmail.com <a href="mailto:tmgregory2017@gmail.com">">
-  </fieldset>
+	
+		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
 </form>
 	</body>
 </html>
